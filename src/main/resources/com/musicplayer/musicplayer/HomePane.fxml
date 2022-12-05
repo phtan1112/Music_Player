@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="577.0" prefWidth="753.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" layoutX="29.0" layoutY="153.0" prefHeight="229.0" prefWidth="695.0" text="Welcome to our music player" textFill="#7c6969">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="42.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="630.0" layoutY="21.0" opacity="0.89" prefHeight="35.0" prefWidth="101.0" style="-fx-background-color: rgba(15, 14, 14, 0.8); -fx-background-radius: 30;" styleClass="frameUser" stylesheets="@Style.css">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="77.0" style="-fx-background-color: none;" styleClass="frameUser" stylesheets="@Style.css" text="User" textFill="#f2eaea">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="11.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="24.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/AvtUser.png" />
+                     </image>
+                     <effect>
+                        <Shadow height="0.0" radius="0.0" width="0.0">
+                           <color>
+                              <Color red="0.7263157963752747" green="0.6886549592018127" blue="0.6886549592018127" />
+                           </color>
+                        </Shadow>
+                     </effect>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ImageView fitHeight="24.0" fitWidth="27.0" layoutX="71.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/caret_down.png" />
+               </image>
+               <effect>
+                  <Shadow height="0.0" radius="0.0" width="0.0">
+                     <color>
+                        <Color red="1.0" green="0.9814814925193787" blue="0.9814814925193787" />
+                     </color>
+                  </Shadow>
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
