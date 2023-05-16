@@ -11,7 +11,7 @@ public class DBConnection {
 
     private String username = "root";
 
-    private String password = "0364429373wad@A";
+    private String password = "123456";
 
     public Connection getConnection() {
         Connection connection = null;
